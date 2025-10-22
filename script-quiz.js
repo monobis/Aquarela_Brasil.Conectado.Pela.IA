@@ -34,5 +34,6 @@ document.getElementById("quizForm").addEventListener("submit", (e) => {
 
   localStorage.setItem("respostasQuiz", JSON.stringify(respostas));
 
-  window.location.href = "../recomendacoes/recomendacoes.html";
+  window.location.href = "recomendacoes.html";
 });
+
